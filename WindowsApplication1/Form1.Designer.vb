@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class TicketManager
+Partial Class frmTicketManager
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -111,7 +111,7 @@ Partial Class TicketManager
         Me.btnDeleteTicket.Text = "Resolve Selected Ticket"
         Me.btnDeleteTicket.UseVisualStyleBackColor = True
         '
-        'TicketManager
+        'frmTicketManager
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -125,7 +125,7 @@ Partial Class TicketManager
         Me.Controls.Add(Me.lstTicketList)
         Me.Controls.Add(Me.txtTicketIssue)
         Me.Controls.Add(Me.txtTicketReporter)
-        Me.Name = "TicketManager"
+        Me.Name = "frmTicketManager"
         Me.Text = "Form1"
         CType(Me.numTicketSeverity, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
